@@ -1,0 +1,55 @@
+#itemCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    background-color: #D49A89;
+    border: #F7D1BA;
+    border-style: solid;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#buyButton{
+    margin-right: 0.4rem;
+}
+
+#description{
+    margin: 1rem;
+    margin-top: 0;
+}
+
+#itemH3{
+    color: black;
+    margin-top: 0;
+}
+
+#itemH4{
+    color: black;
+    margin: 0;
+}
+
+#itemH5{
+    margin: 0;
+}
+    
+#itemDescription{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 20rem;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: #F7D1BA;
+}
+
+#purchaseButtonContainer{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+}

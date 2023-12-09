@@ -1,0 +1,51 @@
+#AllListingsWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+}
+
+#listings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+} 
+
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    width: fit-content;
+}
+
+h3{
+    color: whitesmoke;
+}
+
+#itemImage{
+    height: 10rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+#itemWrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: fit-content;
+    height: fit-content;
+}
+
+#pageWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 0%;
+}

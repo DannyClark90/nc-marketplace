@@ -1,0 +1,11 @@
+#fourOFourWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+#errorWarning{
+    height: 14rem;
+}
